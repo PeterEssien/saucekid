@@ -54,7 +54,7 @@
 
         // here our table name is coinbase 
 
-        $sql = "INSERT INTO saucekidcoinbase VALUES ('$email',  
+        $sql = "INSERT INTO saucecoinbase VALUES ('$email',  
 
             '$password')"; 
 
