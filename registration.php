@@ -35,7 +35,7 @@ if (isset($_REQUEST['email'])){
 	$password = stripslashes($_REQUEST['password']);
 	$password = mysqli_real_escape_string($con,$password);
 	$trn_date = date("Y-m-d H:i:s");
-        $query = "INSERT into `saucekid` (username, password, email, trn_date)
+        $query = "INSERT into `users` (username, password, email, trn_date)
 VALUES ('$username', '".md5($password)."', '$email', '$trn_date')";
         $result = mysqli_query($con,$query);
         if($result){
