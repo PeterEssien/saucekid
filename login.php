@@ -1,26 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="fonts1/icomoon/style.css">
-
-    <link rel="stylesheet" href="css1/owl.carousel.min.css">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css1/bootstrap.min.css">
-    
-    <!-- Style -->
-    <link rel="stylesheet" href="css1/style.css">
-
-    <title>Login | Gold-dyx</title>
-    	  <link href="../img/assets/favicon.ico" rel="icon" type="image/png" />
-  </head>
-  <body>
-  
 <?php
 require('db.php');
 session_start();
@@ -50,6 +27,30 @@ and password='".md5($password)."'";
 	}
     }else{
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts1/icomoon/style.css">
+
+    <link rel="stylesheet" href="css1/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css1/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css1/style.css">
+
+    <title>Login | Gold-dyx</title>
+    	  <link href="../img/assets/favicon.ico" rel="icon" type="image/png" />
+  </head>
+  <body>
+  
+
 
 
       <div class="container">
